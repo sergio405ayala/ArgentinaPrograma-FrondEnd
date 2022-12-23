@@ -6,7 +6,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class SEducacionService {
-  educacionURL = 'https://argentinaprogramablackend.herokuapp.com/educacion/';
+  educacionURL = 'https://nebulous-quill-production.up.railway.app/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 
