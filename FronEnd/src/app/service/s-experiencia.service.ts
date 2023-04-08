@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://nebulous-quill-production.up.railway.app/explab/';
+  expURL = 'https://argentinaprograma-backend-production-d0f3.up.railway.app/explab/';
 
   constructor(private httpClient: HttpClient) { }
 

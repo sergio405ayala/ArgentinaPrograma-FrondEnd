@@ -9,7 +9,7 @@ import { persona } from '../model/persona.model';
 })
 
 export class PersonaService {
-  URL = 'https://nebulous-quill-production.up.railway.app/personas/';
+  URL = 'https://argentinaprograma-backend-production-d0f3.up.railway.app/personas/';
 
   constructor(private http: HttpClient) { }
 

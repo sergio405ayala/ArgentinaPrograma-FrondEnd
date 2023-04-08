@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL =  'https://nebulous-quill-production.up.railway.app/auth/';
+  authURL =  'https://argentinaprograma-backend-production-d0f3.up.railway.app/auth/';
 
   constructor(private httpClient: HttpClient) { }
 

@@ -7,7 +7,7 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  skillURL = 'https://nebulous-quill-production.up.railway.app/skill/';
+  skillURL = 'https://argentinaprograma-backend-production-d0f3.up.railway.app/skill/';
   
   constructor(private httpClient: HttpClient) { }
 

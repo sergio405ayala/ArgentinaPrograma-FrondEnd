@@ -6,7 +6,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class SEducacionService {
-  educacionURL = 'https://nebulous-quill-production.up.railway.app/educacion/';
+  educacionURL = 'https://argentinaprograma-backend-production-d0f3.up.railway.app/educacion/';
 
   constructor(private httpClient: HttpClient) { }
 
